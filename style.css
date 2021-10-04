@@ -7,7 +7,7 @@
 body {
   font-family: sans-serif;
 }
-
+/* FORM STYLES */
 form {
   display: flex;
   flex-direction: column;
@@ -31,7 +31,7 @@ form {
     min-height: 100vh;
     padding: 10px 20px;
   }
-
+/* IMAGE STYLES */
   .image {
     background-image: url("https://svgshare.com/i/_gZ.svg");
     background-repeat: no-repeat;
@@ -46,7 +46,7 @@ form {
     color: white;
     font-size: 18px;
   }
-  
+  /* FORMS */
   form {
      width: 45%;
      max-width: none;
@@ -62,7 +62,7 @@ form {
   font-weight: bold;
   margin-bottom: 20px;
 }
-
+/* BUTTONS */
 .btn {
   display: flex;
   flex-direction: row;
@@ -130,7 +130,7 @@ form div i {
   position: absolute;
   padding: 10px;
 }
-
+/* ERROR AND SUCCESS MESSAGE STYLES */
 .failure-icon,
 .error {
   color: red;
@@ -168,7 +168,7 @@ button {
 button:hover {
   opacity: 0.8;
 }
-
+/* RESPONSIVENESS */
 @media(max-width: 900px) {
     .container {
         flex-direction: column;

@@ -1,5 +1,9 @@
+//TARGET ID AND CLASSES:
+
 let id = (id) => document.getElementById(id);
 let classes = (classes) => document.getElementsByClassName(classes);
+
+//VARIABLES:
 
 let username = id("username"),
   email = id("email"),
@@ -8,6 +12,8 @@ let username = id("username"),
   errorMsg = classes("error"),
   successIcon = classes("success-icon"),
   failureIcon = classes("failure-icon");
+  
+//FUNCTION:
 
 let engine = (id, serial, message) => {
   if (id.value.trim() === "") {
@@ -26,6 +32,8 @@ let engine = (id, serial, message) => {
     successIcon[serial].style.opacity = "1";
   }
 };
+
+//EVENT LISTENERS:
 
 form.addEventListener("submit", (e) => {
   e.preventDefault();
